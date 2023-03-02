@@ -1,0 +1,88 @@
+
+.videoHeader,
+.search {
+  padding-left: 4.3%;
+  padding-right: 4.3%;
+}
+
+.search {
+  padding-top: 50px;
+}
+
+.videoHeader {
+  padding-top: 200px;
+}
+
+.videoContainer h1 {
+  font-size: 50px;
+}
+
+.videoContainer p {
+  font-size: 20px;
+  color: #b5b3b3;
+}
+
+.videoContainer .search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoContainer #search {
+  width: 500px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+}
+
+.videoContainer #search::placeholder {
+  font-size: 18px;
+}
+
+.videoContainer #search[type="search"] {
+  font-size: 18px;
+}
+
+.videoContainer #select {
+  background: none;
+  color: #b5b3b3;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.videoContainer #select option {
+  background-color: #030525e9;
+  color: #b5b3b3;
+}
+
+.videoHeader p {
+  margin-bottom: 15px;
+}
+
+.video {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 275px;
+  row-gap: 100px;
+  padding-left: 3%;
+}
+
+.videoMode {
+  background-color: #030525e9;
+  border: 1px solid #b5b3b330;
+  border-radius: 25px;
+  width: 600px;
+  padding: 30px;
+}
+
+.videoMode iframe {
+  width: 540px;
+}
+
+.videoMode legend {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width: 685px) {
+  .footer {
+    padding: 0;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer #mail,
+  .footer textarea {
+    width: 300px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .footer #mail,
+  .footer textarea {
+    width: 200px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .footer #mail,
+  .footer textarea {
+    width: 150px;
+    height: 25px;
+  }
+}

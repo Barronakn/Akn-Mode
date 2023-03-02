@@ -1,0 +1,181 @@
+@media screen and (max-width: 1250px) {
+  .connexion {
+    position: fixed;
+    padding: 10% 27%;
+    top: 4%;
+    left: -1%;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .connexion {
+    top: 1%;
+    left: -3%;
+  }
+  .connexion form {
+    width: 400px;
+    height: 325px;
+  }
+  .connexion form input {
+    width: 350px;
+    height: 35px;
+  }
+  .connexion form input::placeholder {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .connexion {
+    top: 1%;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .connexion {
+    left: -7%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .connexion {
+    left: -11%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .connexion {
+    left: -14%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .connexion {
+    left: -16%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .connexion {
+    left: -18%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .connexion {
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .connexion {
+    left: -22%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .connexion {
+    left: -11%;
+  }
+  .connexion form {
+    width: 300px;
+    height: 225px;
+  }
+  .connexion form input {
+    width: 250px;
+    height: 25px;
+  }
+  .connexion form h1 {
+    font-size: 20px;
+  }
+  .connexion form #btn {
+    font-size: 15px;
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .connexion {
+    left: -13%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .connexion {
+    left: -15%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .connexion {
+    left: -17%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .connexion {
+    left: -9%;
+  }
+  .connexion form {
+    width: 200px;
+    height: 225px;
+  }
+  .connexion form input {
+    width: 150px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .connexion {
+    left: -11%;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .connexion {
+    left: -13%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .connexion {
+    left: -19%;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .connexion {
+    left: -21%;
+  }
+  .connexion form {
+    width: 170px;
+    height: 225px;
+  }
+  .connexion form input {
+    width: 120px;
+    height: 20px;
+  }
+  .connexion form h1 {
+    font-size: 17px;
+  }
+  .connexion form #btn {
+    font-size: 14px;
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .connexion .oublie {
+    font-size: 15px;
+  }
+  .close {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,193 @@
+@media screen and (max-width: 1250px) {
+  .inscription {
+    position: fixed;
+    padding: 10% 27%;
+    top: 4%;
+    left: -8%;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .inscription {
+    left: -12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inscription {
+    top: 1%;
+    left: -3%;
+  }
+  .inscription form {
+    width: 400px;
+    height: 425px;
+  }
+  .inscription form input {
+    width: 350px;
+    height: 35px;
+  }
+  .inscription form input::placeholder {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .inscription {
+    top: 1%;
+    left: -5%;
+  }
+  .inscription form {
+    height: 375px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .inscription {
+    left: -7%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .inscription {
+    left: -11%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .inscription {
+    left: -14%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .inscription {
+    left: -16%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .inscription {
+    left: -18%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .inscription {
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .inscription {
+    left: -22%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .inscription {
+    left: -15%;
+  }
+  .inscription form {
+    width: 325px;
+    height: 275px;
+  }
+  .inscription form input {
+    width: 250px;
+    height: 25px;
+  }
+  .inscription form h1 {
+    font-size: 20px;
+  }
+  .inscription form #btn {
+    font-size: 15px;
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .inscription {
+    left: -17%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .inscription {
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .inscription {
+    left: -20%;
+  }
+  .inscription form {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .inscription {
+    left: -9%;
+  }
+  .inscription form {
+    width: 200px;
+    height: 275px;
+  }
+  .inscription form input {
+    width: 150px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .inscription {
+    left: -11%;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .inscription {
+    left: -13%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .inscription {
+    left: -19%;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .inscription {
+    left: -21%;
+  }
+  .inscription form {
+    width: 170px;
+    height: 225px;
+  }
+  .inscription form input {
+    width: 120px;
+    height: 20px;
+  }
+  .inscription form h1 {
+    font-size: 17px;
+  }
+  .inscription form #btn {
+    font-size: 14px;
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .inscription .oublie {
+    font-size: 15px;
+  }
+  .close {
+    width: 20px;
+    height: 20px;
+  }
+}

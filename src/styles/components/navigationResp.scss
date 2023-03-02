@@ -1,0 +1,52 @@
+@media screen and (min-width: 1700px) {
+  .navigation {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    background: none;
+  }
+  .nav,
+  .none {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  .nav ul {
+    flex-direction: column;
+    height: 250px;
+    row-gap: 50px;
+  }
+  .closeMenu,
+  .menu {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .nav ul li a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 238px) {
+  .nav ul li a {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 234px) {
+  .nav ul li a {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}

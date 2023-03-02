@@ -1,0 +1,31 @@
+.notFound {
+  text-align: center;
+}
+
+.notFound a {
+  color: #b5b3b3;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #b5b3b330;
+  border-radius: 5px;
+  background-color: #ffffff1a;
+  cursor: pointer;
+}
+
+.notFound a:hover {
+  background: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+    .notFound {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .notFound img {
+        width: 250px;
+        height: 250px;
+    }
+}

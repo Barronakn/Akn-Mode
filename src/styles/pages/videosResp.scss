@@ -1,0 +1,135 @@
+@media screen and (min-width: 1700px) {
+  .video {
+    grid-template-columns: 750px 750px;
+    column-gap: 250px;
+  }
+}
+
+@media screen  and (max-width: 1700px) and (min-width: 1600px) {
+  .video {
+    grid-template-columns: 700px 700px;
+    column-gap: 200px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .video {
+    grid-template-columns: 550px 550px;
+    column-gap: 200px;
+  }
+  .videoMode {
+    width: 500px;
+  }
+  .videoMode iframe {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .videoMode {
+    width: 600px;
+  }
+  .videoMode iframe {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .videoContainer {
+    overflow: hidden;
+    width: 100%;
+  }
+  .videoMode {
+    width: 500px;
+  }
+  .videoMode iframe {
+    width: 440px;
+  }
+  .videoContainer .search {
+    display: block;
+  }
+  .videoContainer #search {
+    width: 100%;
+  }
+  .videoContainer #select {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .videoMode {
+    width: 400px;
+  }
+  .videoMode iframe {
+    width: 340px;
+  }
+  .videoMode legend {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .videoMode {
+    width: 350px;
+  }
+  .videoMode iframe {
+    width: 290px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .videoMode {
+    width: 300px;
+  }
+  .videoMode iframe {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .videoMode {
+    width: 300px;
+    height: 300px;
+  }
+  .videoMode iframe {
+    width: 240px;
+    height: 200px;
+  }
+  .videoMode legend {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .videoMode {
+    width: 260px;
+    height: 320px;
+  }
+  .videoMode iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .videoMode {
+    width: 210px;
+    height: 320px;
+  }
+  .videoMode iframe {
+    width: 150px;
+    height: 200px;
+  }
+}

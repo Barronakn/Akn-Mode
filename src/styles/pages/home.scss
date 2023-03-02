@@ -1,0 +1,72 @@
+.homeContainer {
+  padding: 0 5%;
+  padding-top: 200px;
+}
+
+.acceuil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeContainer h2 {
+  color: rgb(61, 61, 218);
+}
+
+.homeContainer h1 {
+  display: flex;
+  font-size: 50px;
+  margin-top: 35px;
+  column-gap: 15px;
+}
+
+.homeContainer h1 span {
+  color: rgb(61, 61, 218);
+}
+
+.homePara {
+  margin-top: 25px;
+  color: #b5b3b3;
+  font-size: 23px;
+  width: 720px;
+}
+
+.imgAceuil img {
+  width: 400px;
+}
+
+.homeLink {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeLink .videoLink {
+  background-color: #343de274;
+  border: 1px solid #5f65cf;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  font-size: 17px;
+  padding-top: 17px;
+}
+
+.homeLink .videoLink:hover {
+  background: none;
+  color: rgb(61, 61, 218);
+}
+
+.homeLink .articleLink {
+  font-weight: bold;
+  color: rgb(61, 61, 218);
+  padding: 8px;
+  font-size: 17px;
+}
+
+.homeLink .articleLink:hover {
+  background: none;
+  color: #fff;
+}
+
+.arrow {
+  font-size: 35px;
+}

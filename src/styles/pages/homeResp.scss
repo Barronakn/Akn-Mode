@@ -1,0 +1,103 @@
+@media screen and (max-width: 1310px) {
+  .homeContainer h1 {
+    font-size: 40px;
+  }
+
+  .homeContainer h2 {
+    font-size: 25px;
+  }
+  .homePara {
+    font-size: 20px;
+  }
+
+  .imgAceuil img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .acceuil {
+    display: block;
+    text-align: center;
+  }
+  .imgAceuil {
+    margin-top: 25px;
+  }
+  .homeLink .videoLink {
+    padding-top: 17px;
+  }
+  .homeAcceuil {
+    width: 100%;
+  }
+  .homePara {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .homeContainer h1 {
+    font-size: 30px;
+    display: block;
+  }
+  .homeContainer h2 {
+    font-size: 23px;
+  }
+  .homePara {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .homeLink .videoLink {
+    padding: 3px;
+    font-size: 15px;
+    padding-top: 17px;
+  }
+  .homeLink .articleLink {
+    padding: 8px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .homeLink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .homeLink .videoLink {
+    padding: 10px;
+    padding-top: 15px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .homeContainer {
+    overflow-x: hidden;
+  }
+  .imgAceuil img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .imgAceuil img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 210px) {
+  .imgAceuil img {
+    width: 135px;
+  }
+  .homeLink .articleLink {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .arrow {
+    font-size: 30px;
+  }
+}

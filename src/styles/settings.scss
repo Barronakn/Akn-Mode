@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #030525e9;
+  color: #fff;
+  max-width: 1700px !important;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #343de274;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5f65cf;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #030525a7;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1700px) {
+  body {
+    text-align: center;
+  }
+}
